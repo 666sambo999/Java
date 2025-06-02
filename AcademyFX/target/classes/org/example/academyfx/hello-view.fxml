@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<TabPane prefHeight="154.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.academyfx.HelloController">
+   <tabs>
+      <Tab closable="false">
+         <content>
+            <VBox alignment="CENTER" spacing="5.0">
+                <padding>
+                    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                </padding>
+                <!--<Label text="Last name:"/>
+                <TextField  fx:id="lastName" promptText="Last name"/>
+                <Label text="First name:"/>
+                <TextField  fx:id="firstName" promptText="First name"/>
+                <Label text="Age:"/>
+                <DatePicker  fx:id="age" promptText="Birth date"/>
+                <Label fx:id="welcomeText"/>
+                <Button text="Submit!" onAction="#onHelloButtonClick"/>-->
+            
+                <ComboBox fx:id="cbDirections" />
+                <Button fx:id="load" onAction="#onLoadButtonClick" text="Load" />
+                <Button fx:id="check" onAction="#onCheckButtonClick" text="Check" />
+            </VBox>
+         </content>
+      </Tab>
+   </tabs>
+</TabPane>
